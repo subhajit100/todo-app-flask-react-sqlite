@@ -5,7 +5,7 @@ function TodoApp() {
   const [todos, setTodos] = useState([]);
   const [form, setForm] = useState({ title: '', description: '' });
 
-  const API_URL = 'http://127.0.0.1:5000/api/todos';
+  const API_URL = 'https://todo-app-flask-react-sqlite.onrender.com/api/todos';
 
   // Fetch Todos
   useEffect(() => {
